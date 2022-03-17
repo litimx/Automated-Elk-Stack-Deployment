@@ -52,11 +52,11 @@ Machines within the network can only be accessed by Port 22.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name 	| Publicly Accessible | Allowed IP Addresses |
+| Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No          	| 10.0.0.1 10.0.0.2	|
-|      	|                 	|                  	|
-|      	| 	                |                  	|
+| Jump Box |     No              | 74.105.101.57        |
+| DVWA VMs |     No              | 10.0.0.4             |
+| ELK VM   |     No              | 10.0.0.4             |
 
 ### Elk Configuration
 
